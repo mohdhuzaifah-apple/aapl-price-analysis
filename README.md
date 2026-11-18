@@ -81,7 +81,7 @@ The results help describe the trade-off between historical return and risk in th
 - AAPL and SPY historical data: [Yahoo Finance](https://finance.yahoo.com/quote/AAPL/history/) and retrieved with the Python `yfinance` package.
 - Open `aapl_analysis.ipynb` in Jupyter and run the notebook cells from top to bottom.
 
-### Method
+### Methodology
 
 For this comparison, we use benchmark-relative performance and risk analysis. The key is to compare both assets over the same dates and calculate their returns from adjusted prices.
 
