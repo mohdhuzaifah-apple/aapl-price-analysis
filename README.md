@@ -53,6 +53,7 @@ AAPL fell **12.86%** on March 16, 2020, during a severe market sell-off as the C
 **Interpretation:** The decline appears to have happened amid broad market panic, rather than being evidence by itself of an Apple-specific problem. The timing provides context, but it does not prove exactly what caused AAPL's entire daily move.
 
 - The adjusted-price chart shows an overall upward trend with several declines and recoveries.
+
 - Most daily returns are closer to zero than the largest positive and negative moves.
 
 These findings describe the sample period. The notebook does not establish the causes of individual price movements or predict future returns.
