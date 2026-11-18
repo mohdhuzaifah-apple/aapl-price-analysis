@@ -38,7 +38,7 @@ This section uses descriptive time-series analysis to examine Apple's historical
 
 ### Findings
 
-- The dataset covers 2 January 2020 to 17 November 2026.
+#### 1. The dataset covers 2 January 2020 to 17 November 2026.
 
 - The largest daily increase was **15.33% on April 9, 2025**.
 
