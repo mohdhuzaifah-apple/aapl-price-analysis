@@ -45,3 +45,62 @@ The next version will compare AAPL with the S&P 500 and add drawdown and rolling
 
 - `aapl_analysis.ipynb` — data preparation, calculations, charts, and written interpretation
 - `README.md` — project overview and findings
+
+# AAPL vs SPY: Historical Performance and Risk Analysis
+
+## Project overview
+
+This project compares Apple Inc. (AAPL) with SPY, an exchange-traded fund designed to track the S&P 500. It examines adjusted-price performance and historical risk from January 2, 2020 to November 17, 2026.
+
+The analysis uses Python to prepare daily price data, calculate returns and risk measures, create charts, and summarize the results.
+
+## Key findings
+
+- AAPL’s cumulative adjusted-price return was **387.30%**, compared with **147.96%** for SPY.
+- AAPL’s annualized return was **25.91%**, compared with **14.12%** for SPY.
+- AAPL’s annualized volatility was **31.13%**, compared with **20.02%** for SPY.
+- Maximum drawdowns were similar: **−33.36%** for AAPL and **−33.72%** for SPY.
+- AAPL’s daily returns had a **0.749 correlation** with SPY and an estimated **beta of 1.165** over this sample.
+
+In this historical period, AAPL had higher returns and more variable daily returns than SPY, while its maximum drawdown was similar. These findings describe the selected period and do not predict future performance.
+
+## Charts
+
+### Growth of $100
+
+![Growth of $100 in AAPL and SPY](images/aapl-vs-spy-growth.png)
+
+### Historical drawdowns
+
+![Historical drawdowns for AAPL and SPY](images/aapl-vs-spy-drawdown.png)
+
+### Rolling volatility
+
+![30-day rolling annualized volatility for AAPL and SPY](images/aapl-vs-spy-rolling-volatility.png)
+
+## Method
+
+- Used adjusted closing prices for AAPL and SPY.
+- Matched the datasets on shared trading dates.
+- Compared cumulative and annualized returns.
+- Measured annualized volatility, maximum drawdown, 30-day rolling volatility, correlation, and beta.
+
+## Data and how to run
+
+- AAPL historical data: [Yahoo Finance](https://finance.yahoo.com/quote/AAPL/history/)
+- SPY historical data: retrieved with the Python `yfinance` package.
+- The raw AAPL Excel file is not included. Download the data and save it beside the notebook as `Historical Data Apple.xlsx`.
+- Open `aapl_analysis.ipynb` in Jupyter and run the notebook cells from top to bottom. The SPY download requires an internet connection.
+
+## Limitations
+
+- This is a historical analysis, not a price forecast or buy-or-sell recommendation.
+- SPY holds AAPL, so it is not fully independent of the stock being analyzed.
+- The results cover one selected period and do not include an analysis of company financial statements, taxes, or an individual investor’s trading costs.
+- Volatility, beta, and drawdown are historical estimates and can change across periods.
+
+## Project files
+
+- `aapl_analysis.ipynb` — data preparation, analysis, charts, and interpretation
+- `images/` — exported charts used in this README
+- `README.md` — project overview and findings
