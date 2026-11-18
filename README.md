@@ -65,15 +65,6 @@ These findings describe the sample period. The notebook does not establish the c
 - Large daily moves require additional research before attributing them to a specific event.
 - The original data file is not included. Refer to the source and the notebook for the expected file name and format.
 
-### Planned extension
-
-The next version will compare AAPL with the S&P 500 and add drawdown and rolling-volatility analysis. These additions will help assess performance and risk relative to the broader market.
-
-### Project files
-
-- `aapl_analysis.ipynb` — data preparation, calculations, charts, and written interpretation
-- `README.md` — project overview and findings
-
 ## 2. AAPL vs SPY: Historical Performance and Risk Analysis
 
 ### Project overview
