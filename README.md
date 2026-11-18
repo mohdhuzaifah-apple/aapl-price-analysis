@@ -38,9 +38,20 @@ This section uses descriptive time-series analysis to examine Apple's historical
 
 ### Findings
 
-- The dataset covers January 2, 2020, to November 17, 2026.
+- The dataset covers 2 January 2020 to 17 November 2026.
+
 - The largest daily increase was **15.33% on April 9, 2025**.
+
+AAPL rose **15.33%** on April 9, 2025, during a sharp market-wide rebound. The U.S. announced a 90-day pause on certain tariffs for many trading partners, easing some investor concerns about trade and supply-chain costs. China was excluded from the pause, so trade uncertainty affecting Apple did not disappear.
+
+**Interpretation:** The tariff announcement likely contributed to the rally by improving investor expectations that trade tensions with many countries might ease. This is a market-context explanation, not proof that one announcement alone caused Apple's entire price move.
+
 - The largest daily decrease was **−12.86% on March 16, 2020**.
+
+AAPL fell **12.86%** on March 16, 2020, during a severe market sell-off as the COVID-19 outbreak raised fears of widespread business disruption and recession. The Federal Reserve had announced emergency measures the day before, including cutting its benchmark interest rate to near zero. However, investors remained concerned about the pandemic's economic effects, and U.S. stocks fell sharply.
+
+**Interpretation:** The decline appears to have happened amid broad market panic, rather than being evidence by itself of an Apple-specific problem. The timing provides context, but it does not prove exactly what caused AAPL's entire daily move.
+
 - The adjusted-price chart shows an overall upward trend with several declines and recoveries.
 - Most daily returns are closer to zero than the largest positive and negative moves.
 
