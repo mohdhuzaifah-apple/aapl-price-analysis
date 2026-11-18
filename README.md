@@ -118,9 +118,3 @@ In this historical period, AAPL had higher returns and more variable daily retur
 - SPY holds AAPL, so it is not fully independent of the stock being analyzed.
 - The results cover one selected period and do not include an analysis of company financial statements, taxes, or an individual investor’s trading costs.
 - Volatility, beta, and drawdown are historical estimates and can change across periods.
-
-### Project files
-
-- `aapl_analysis.ipynb` — data preparation, analysis, charts, and interpretation
-- `images/` — exported charts used in this README
-- `README.md` — project overview and findings
