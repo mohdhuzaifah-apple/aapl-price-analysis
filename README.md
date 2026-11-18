@@ -4,7 +4,7 @@
 
 ### Project overview
 
-This project examines Apple Inc. (AAPL) daily historical prices from January 2, 2020, to November 17, 2026. Using Python, pandas, and Matplotlib, it explores the performance, adjusted-price movements and daily returns. The goal is to describe AAPL’s historical return behavior, identify unusually large daily moves, and prepare the analysis for comparison with a market benchmark.
+This project examines Apple Inc. (AAPL) daily historical prices from January 2, 2020, to November 17, 2026. Using Python, pandas, and Matplotlib, it explores the performance, adjusted-price movements and daily returns. The goal is to describe AAPL’s historical return behavior, identify unusually large daily moves, and prepare the analysis for comparison with a market benchmark. It is also to describe how Apple’s stock performed over the selected period, using Python to organize the price data, calculate returns, and visualize the results.
 
 ### Questions
 
@@ -13,12 +13,22 @@ This project examines Apple Inc. (AAPL) daily historical prices from January 2, 
 - What were the largest daily increase and decrease?
 - How did large moves appear over time?
 
-### Data and methods
+### Data
 
 - **Source:** [Yahoo Finance historical data](https://finance.yahoo.com/quote/AAPL/history/)
 - **Frequency:** Daily
 - **Price series used for returns:** Adjusted Close
 - **Tools:** Python, pandas, Matplotlib, Jupyter Notebook
+
+### Methodology
+
+1. **Data collection:** Download daily AAPL historical price data using Python.
+2. **Data preparation:** Check the data, format the dates, sort records chronologically, and review missing or duplicate values.
+3. **Price measure:** Use the adjusted closing price (`Adj Close`) to account for dividends and stock splits when measuring historical performance.
+4. **Daily returns:** Calculate the percentage change in adjusted closing price from one trading day to the next:
+
+   ```text
+   Daily return (%) = (Current adjusted close / Previous adjusted close - 1) × 100
 
 The notebook loads and checks the data, sorts observations by date, calculates daily adjusted-price returns, and plots the adjusted price and daily returns.
 
