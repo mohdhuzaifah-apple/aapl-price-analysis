@@ -1,4 +1,4 @@
-# Apple Inc. (AAPL): Return and Performance Analysis
+# Apple Inc. (AAPL): Historical Performance and Risk Analysis
 
 ## Project overview
 
