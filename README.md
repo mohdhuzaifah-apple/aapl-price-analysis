@@ -70,9 +70,11 @@ These findings describe the sample period. The notebook does not establish the c
 
 ### Project overview
 
-This project compares Apple Inc. (AAPL) with SPY, an exchange-traded fund designed to track the S&P 500. It examines adjusted-price performance and historical risk from January 2, 2020 to November 17, 2026.
+This section compares Apple's historical performance with SPY, an ETF designed to track the S&P 500, over the same date range. The comparison shows how AAPL performed relative to a broad U.S. large-company market benchmark.
 
-The analysis uses Python to prepare daily price data, calculate returns and risk measures, create charts, and summarize the results.
+To make the price trends easier to compare, both investments are rebased to a starting value of $100. The analysis also examines daily returns, annualized return, annualized volatility, maximum drawdown, rolling volatility, correlation, and beta.
+
+The results help describe the trade-off between historical return and risk in this sample. They are historical measurements, not predictions or investment recommendations.
 
 ### Key findings
 
