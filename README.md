@@ -76,6 +76,32 @@ To make the price trends easier to compare, both investments are rebased to a st
 
 The results help describe the trade-off between historical return and risk in this sample. They are historical measurements, not predictions or investment recommendations.
 
+### Data
+
+- AAPL and SPY historical data: [Yahoo Finance](https://finance.yahoo.com/quote/AAPL/history/) and retrieved with the Python `yfinance` package.
+- Open `aapl_analysis.ipynb` in Jupyter and run the notebook cells from top to bottom.
+
+### Method
+
+For this comparison, we use benchmark-relative performance and risk analysis. The key is to compare both assets over the same dates and calculate their returns from adjusted prices.
+
+1. **Collect and prepare the data:** Download daily AAPL and SPY price data, convert dates to a consistent format, and sort both datasets chronologically.
+2. **Align the comparison period:** Match AAPL and SPY on their shared trading dates so the comparison uses the same observations.
+3. **Use adjusted closing prices:** Calculate returns from adjusted closing prices to account for dividends and stock splits.
+4. **Compare investment growth:** Rebase both price series to $100 at the start of the shared period. This shows how the value of a hypothetical $100 investment would have changed over time.
+5. **Calculate daily returns:** Use the percentage change in adjusted closing prices from one trading day to the next.
+6. **Measure performance and risk:**
+   - **Cumulative return:** Total percentage gain or loss over the comparison period.
+   - **Annualized return (CAGR):** Compounded average annual growth over the period.
+   - **Annualized volatility:** Standard deviation of daily returns multiplied by the square root of 252 trading days.
+   - **Maximum drawdown:** Largest percentage decline from a previous peak in the adjusted-price series.
+   - **Rolling 30-day volatility:** Annualized volatility calculated over successive 30-trading-day windows.
+   - **Correlation:** Measures how closely AAPL and SPY daily returns moved together.
+   - **Beta:** Estimates AAPL's historical sensitivity to SPY's daily returns, calculated as the covariance of their returns divided by SPY's return variance.
+7. **Visualize and interpret:** Use growth, drawdown, and rolling-volatility charts alongside a summary table to compare historical performance and risk.
+
+This is a descriptive analysis of historical data, not a forecast or investment recommendation. SPY includes Apple among its holdings, so the two investments are related rather than fully independent.
+
 ### Key findings
 
 - AAPL’s cumulative adjusted-price return was **387.30%**, compared with **147.96%** for SPY.
