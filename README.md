@@ -22,6 +22,10 @@ This project examines Apple Inc. (AAPL) daily historical prices from January 2, 
 
 ### Methodology
 
+For AAPL Historical Price and Performance Analysis, we use a descriptive, time-series analysis: we examine past prices and returns to summarize what happened during the selected period.
+
+This section uses descriptive time-series analysis to examine Apple's historical stock prices and daily returns.
+
 1. **Data collection:** Download daily AAPL historical price data using Python.
 2. **Data preparation:** Check the data, format the dates, sort records chronologically, and review missing or duplicate values.
 3. **Price measure:** Use the adjusted closing price (`Adj Close`) to account for dividends and stock splits when measuring historical performance.
@@ -30,7 +34,7 @@ This project examines Apple Inc. (AAPL) daily historical prices from January 2, 
    ```text
    Daily return (%) = (Current adjusted close / Previous adjusted close - 1) × 100
 
-The notebook loads and checks the data, sorts observations by date, calculates daily adjusted-price returns, and plots the adjusted price and daily returns.
+5. **Analysis and visualization** Plot adjusted closing prices and daily returns, summarize return patterns, and identify the largest daily gain and loss in the dataset.
 
 ### Findings
 
