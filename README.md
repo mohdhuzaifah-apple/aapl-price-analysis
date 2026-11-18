@@ -1,10 +1,8 @@
-# Apple Inc. (AAPL): Return and Risk Analysis, 2020–2026
+# Apple Inc. (AAPL): Return and Performance Analysis
 
 ## Project overview
 
-This project examines Apple Inc. (AAPL) daily historical prices from January 2, 2020, to November 17, 2026. Using Python, pandas, and Matplotlib, it explores adjusted-price movements and daily returns.
-
-The goal is to describe AAPL’s historical return behavior, identify unusually large daily moves, and prepare the analysis for comparison with a market benchmark.
+This project examines Apple Inc. (AAPL) daily historical prices from January 2, 2020, to November 17, 2026. Using Python, pandas, and Matplotlib, it explores the performance, adjusted-price movements and daily returns. The goal is to describe AAPL’s historical return behavior, identify unusually large daily moves, and prepare the analysis for comparison with a market benchmark.
 
 ## Questions
 
