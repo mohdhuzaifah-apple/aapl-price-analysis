@@ -1,6 +1,6 @@
 # Apple Inc. (AAPL): Historical Analysis
 
-## 1.AAPL Historical Price and Performance Analysis
+## 1. AAPL Historical Price and Performance Analysis
 
 ### Project overview
 
@@ -48,7 +48,7 @@ The next version will compare AAPL with the S&P 500 and add drawdown and rolling
 - `aapl_analysis.ipynb` — data preparation, calculations, charts, and written interpretation
 - `README.md` — project overview and findings
 
-## AAPL vs SPY: Historical Performance and Risk Analysis
+## 2. AAPL vs SPY: Historical Performance and Risk Analysis
 
 ### Project overview
 
