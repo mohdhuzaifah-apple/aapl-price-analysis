@@ -112,34 +112,6 @@ This is a descriptive analysis of historical data, not a forecast or investment 
 
 In this historical period, AAPL had higher returns and more variable daily returns than SPY, while its maximum drawdown was similar. These findings describe the selected period and do not predict future performance.
 
-### Charts
-
-#### Growth of $100
-
-![Growth of $100 in AAPL and SPY](images/aapl-vs-spy-growth.png)
-
-#### Historical drawdowns
-
-![Historical drawdowns for AAPL and SPY](images/aapl-vs-spy-drawdown.png)
-
-#### Rolling volatility
-
-![30-day rolling annualized volatility for AAPL and SPY](images/aapl-vs-spy-rolling-volatility.png)
-
-### Method
-
-- Used adjusted closing prices for AAPL and SPY.
-- Matched the datasets on shared trading dates.
-- Compared cumulative and annualized returns.
-- Measured annualized volatility, maximum drawdown, 30-day rolling volatility, correlation, and beta.
-
-### Data and how to run
-
-- AAPL historical data: [Yahoo Finance](https://finance.yahoo.com/quote/AAPL/history/)
-- SPY historical data: retrieved with the Python `yfinance` package.
-- The raw AAPL Excel file is not included. Download the data and save it beside the notebook as `Historical Data Apple.xlsx`.
-- Open `aapl_analysis.ipynb` in Jupyter and run the notebook cells from top to bottom. The SPY download requires an internet connection.
-
 ### Limitations
 
 - This is a historical analysis, not a price forecast or buy-or-sell recommendation.
