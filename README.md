@@ -65,6 +65,7 @@ These findings describe the sample period. The notebook does not establish the c
 - Large daily moves require additional research before attributing them to a specific event.
 - The original data file is not included. Refer to the source and the notebook for the expected file name and format.
 
+
 ## 2. AAPL vs SPY: Historical Performance and Risk Analysis
 
 ### Project overview
