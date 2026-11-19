@@ -104,13 +104,15 @@ This is a descriptive analysis of historical data, not a forecast or investment 
 
 ### Key findings
 
-- AAPL’s cumulative adjusted-price return was **387.30%**, compared with **147.96%** for SPY.
-- AAPL’s annualized return was **25.91%**, compared with **14.12%** for SPY.
-- AAPL’s annualized volatility was **31.13%**, compared with **20.02%** for SPY.
-- Maximum drawdowns were similar: **−33.36%** for AAPL and **−33.72%** for SPY.
-- AAPL’s daily returns had a **0.749 correlation** with SPY and an estimated **beta of 1.165** over this sample.
+- **Period analyzed:** January 2, 2020 to November 17, 2026.
+- **AAPL outperformed SPY in this sample:** AAPL had a cumulative return of **387.30%**, compared with **147.96%** for SPY.
+- **Growth of $100:** The analysis estimates that $100 invested at the start would have grown to about **$487.30 in AAPL** and **$247.96 in SPY** by the end of the period.
+- **Annualized return:** AAPL's annualized return was **25.91%**, compared with **14.12%** for SPY.
+- **AAPL had higher return variability:** Its annualized volatility was **31.13%**, compared with **20.02%** for SPY.
+- **Maximum drawdowns were similar:** AAPL's was **−33.36%** and SPY's was **−33.72%**.
+- **The assets generally moved together:** Their daily-return correlation was **0.749**. AAPL's estimated beta relative to SPY was **1.165**, indicating that AAPL's returns were more sensitive to SPY's movements in this sample.
 
-In this historical period, AAPL had higher returns and more variable daily returns than SPY, while its maximum drawdown was similar. These findings describe the selected period and do not predict future performance.
+**Interpretation:** AAPL delivered stronger historical returns than SPY over this period, but its returns fluctuated more. These measurements describe this historical sample and do not predict future performance. SPY includes Apple among its holdings.
 
 ### Limitations
 
